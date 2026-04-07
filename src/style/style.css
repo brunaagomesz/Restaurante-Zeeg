@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&family=Special+Gothic+Expanded+One&display=swap');
 
-root {
-/* Cores principais */
---preto-principal: #1C1C1C;
---vermelho-chef: #D64545;
+:root {
+  /* Cores principais */
+  --preto-principal: #1C1C1C;
+  --vermelho-chef: #D64545;
 
- /* Tons de apoio */
---laranja-destaque: #F28C28;
---amarelo-suave: #F5C542;
---verde-lima: #8BC34A;
+  /* Tons de apoio */
+  --laranja-destaque: #F28C28;
+  --amarelo-suave: #F5C542;
+  --verde-lima: #8BC34A;
 
-/* Fundo / base */
---fundo-claro: #F4F6F8;
---fundo-gradiente-1: #D9EEF2;
---fundo-gradiente-2: #FDE3C8;
+  /* Fundo / base */
+  --fundo-claro: #F4F6F8;
+  --fundo-gradiente-1: #D9EEF2;
+  --fundo-gradiente-2: #FDE3C8;
 
-/* Neutros */
---cinza-texto: #555555;
---branco: #FFFFFF;
+  /* Neutros */
+  --cinza-texto: #555555;
+  --branco: #FFFFFF;
 }
 
-
+/*                             ESPAÇEAMENTO                                      */
 
 * {
     font-family: "Inter", sans-serif;
@@ -31,5 +31,5 @@ root {
 
 body {
     background-color: #F4F6F8;
-    
+
 }
