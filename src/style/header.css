@@ -12,4 +12,16 @@ header {
 
 #nav_logo{
     font-size: 24px;
+    color: #D64545;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #F5C542;
 }
