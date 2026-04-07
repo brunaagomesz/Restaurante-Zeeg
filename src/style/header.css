@@ -1,3 +1,24 @@
+:root {
+  /* Cores principais */
+  --preto-principal: #1C1C1C;
+  --vermelho-chef: #D64545;
+
+  /* Tons de apoio */
+  --laranja-destaque: #F28C28;
+  --amarelo-suave: #F5C542;
+  --verde-lima: #8BC34A;
+
+  /* Fundo / base */
+  --fundo-claro: #F4F6F8;
+  --fundo-gradiente-1: #91d3e1;
+  --fundo-gradiente-2: #FDE3C8;
+
+  /* Neutros */
+  --cinza-texto: #555555;
+  --branco: #FFFFFF;
+}
+
+
 header {
     width: 100%;
     padding: 28px 8%;
@@ -12,7 +33,7 @@ header {
 
 #nav_logo{
     font-size: 24px;
-    color: #D64545;
+    color: #F28C28;
 }
 
 #nav_list {
@@ -21,7 +42,13 @@ header {
     gap: 48px;
 }
 
-.nav-item a {
+.nav_item a {
     text-decoration: none;
-    color: #F5C542;
+    color: #555555;
+    font-weight: 600;
+}
+
+.nav_item.active a {
+    color: #555555;
+    border-bottom: 3px solid #F28C28;
 }

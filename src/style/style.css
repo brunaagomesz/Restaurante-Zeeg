@@ -13,7 +13,7 @@
   /* Fundo / base */
   --fundo-claro: #F4F6F8;
   --fundo-gradiente-1: #D9EEF2;
-  --fundo-gradiente-2: #FDE3C8;
+  --fundo-gradiente-2: #020202;
 
   /* Neutros */
   --cinza-texto: #555555;
@@ -32,4 +32,24 @@
 body {
     background-color: #F4F6F8;
 
+}
+
+ /* Botão Peça aqui */
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5C542;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover {
+    background-color:antiquewhite;
 }
