@@ -53,3 +53,6 @@ header {
     border-bottom: 3px solid #F28C28;
 }
 
+.mobile_btn {
+    display: none;
+}
