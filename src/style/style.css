@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&family=Special+Gothic+Expanded+One&display=swap');
 
 :root {
-  /* Cores principais */
-  --preto-principal: #1C1C1C;
-  --vermelho-chef: #D64545;
+  /* 🎨 Base neutra */
+  --color-bg-primary: #F5F5F5;
+  --color-bg-secondary: #E0E0E0;
+  --color-bg-tertiary: #BDBDBD;
 
-  /* Tons de apoio */
-  --laranja-destaque: #F28C28;
-  --amarelo-suave: #F5C542;
-  --verde-lima: #8BC34A;
+  /* 🖤 Tons principais */
+  --color-text-primary: #1C1C1C;
+  --color-text-secondary: #3A3A3A;
 
-  /* Fundo / base */
-  --fundo-claro: #F4F6F8;
-  --fundo-gradiente-1: #D9EEF2;
-  --fundo-gradiente-2: #020202;
+  /* 💜 Destaque da marca */
+  --color-brand-primary: #2E1A2F;
+  --color-brand-secondary: #4A3A4F;
 
-  /* Neutros */
-  --cinza-texto: #555555;
-  --branco: #FFFFFF;
+  /* 🤍 Apoio / superfícies */
+  --color-surface-primary: #D6D1CD;
+  --color-surface-secondary: #EFE9E6;
+
+  /* ✨ Detalhes */
+  --color-accent-soft: #C8B6C9;
+
+  /* 🧁 Estados (opcional, mas útil) */
+  --color-hover: #4A3A4F;
+  --color-active: #2E1A2F;
 }
 
 /*                             ESPAÇEAMENTO                                      */
@@ -30,7 +36,7 @@
 }
 
 body {
-    background-color: #F4F6F8;
+    background-color: #F5F5F5;
 
 }
 
@@ -41,7 +47,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F5C542;
+    background-color: #C8B6C9;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -54,3 +60,4 @@ body {
     background-color:antiquewhite;
     
 }
+
