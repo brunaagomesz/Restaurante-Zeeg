@@ -2,7 +2,7 @@
 
 :root {
   /* 🎨 Base neutra */
-  --color-bg-primary: #F5F5F5;
+  --color-bg-primary: #fffffff6;
   --color-bg-secondary: #E0E0E0;
   --color-bg-tertiary: #BDBDBD;
 
@@ -38,10 +38,19 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #F5F5F5;
 
 }
+
+section{
+    padding: 28px 8%;
+}
+
+.logo_navbar{
+    width: 50px;
+    align-items: center;}
 
  /* Botão Peça aqui */
 
@@ -60,7 +69,19 @@ body {
 }
 
 .btn-default:hover {
-    background-color:antiquewhite;
-    
+    background-color:#fffffff6;
 }
 
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #ffffffff;
+}
