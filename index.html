@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style/style.css">
     <link rel="stylesheet" href="src/style/header.css">
+    <link rel="stylesheet" href="src/style/home.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ANTONIETT</title>
 </head>
 <body>
+
     <header>
-        <!-- Icone e nome do Restaurante -->
+        <!-- Icone e nome da Empresa -->
         <nav id="navbar">
-            <i class="fa-light fa-mug-saucer">ANTONIETT</i>
-            
+            <img class="logo_navbar" src="/src/style/img/logoantoniett_n-Photoroom.png" alt="logo">
+            <span class="nome-marca">ANTONIETT</span>
+
             <ul id="nav_list">
                 <li class="nav_item active">
                     <a href="#home">Inicio</a>
@@ -24,7 +27,7 @@
                     <a href="#on">Sobre</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#menu">Cardapio</a>
+                    <a href="#menu">Canecas</a>
                 </li>
                 <li class="nav_item">
                     <a href="#testimonials">Avaliações</a>
@@ -36,7 +39,7 @@
             
             <!-- Botão Peça aqui -->
             <button class="btn-default">
-                Peça Aqui!
+                Veja Aqui!
             </button>
 
              <!-- Botão Menu Hamburguer -->
@@ -66,13 +69,63 @@
             </ul>
 
             <button class="btn-default">
-                Peça Aqui!
+                Veja Aqui!
             </button>
 
         </div>
 
         </nav>
     </header>
+
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Transforme Suas Ideias em Canecas 
+                    <span>Unicas</span>
+                </h1>
+
+                <p class="description">
+                    Canecas Exclusivas para expressar quem voçê é. Crie, Perosnalize e
+                    torne cada momento <span>Unico</span>
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver Modelos
+                    </a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51)99999-9999
+                    </a>
+                </div>
+
+                <!-- Icone Social media -->
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div id="banner">
+                <img src="/src/style/img/boonjour.png" alt="Imagem-caneca">
+            </div>
+        
+        </section>
+        
+    </main>
+
 
         <script src="src/javascript/script.js"></script>
 </body>
