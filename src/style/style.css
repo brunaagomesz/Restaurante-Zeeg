@@ -48,9 +48,6 @@ section{
     padding: 28px 8%;
 }
 
-.logo_navbar{
-    width: 50px;
-    align-items: center;}
 
  /* Botão Peça aqui */
 
@@ -84,4 +81,14 @@ section{
     width: 45px;
     height: 40px;
     background-color: #ffffffff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1C1C1C;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover{
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
