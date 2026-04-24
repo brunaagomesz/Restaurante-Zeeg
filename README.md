@@ -6,7 +6,7 @@ Projeto de um site de vendas de canecas desenvolvido com foco em experiência do
 
 ## 📌 Sobre o projeto
 
-O **ANTONIETT** é um projeto acadêmico desenvolvido durante a faculdade, com o propósito de atender às necessidades de um cliente real.
+A **ANTONIETT** é um projeto acadêmico desenvolvido durante a faculdade, com o propósito de atender às necessidades de um cliente real.
 
 A proposta vai além da teoria, permitindo a aplicação prática dos conhecimentos adquiridos em sala de aula, além de promover a expansão das habilidades em desenvolvimento front-end.
 
@@ -74,4 +74,4 @@ Este projeto foi desenvolvido como parte das atividades acadêmicas da faculdade
 
 ## 📄 Licença
 
-Este projeto é apenas para fins acadêmicos.
+Este projeto é apenas para fins acadêmicos e fortalecimento de portifolio.
