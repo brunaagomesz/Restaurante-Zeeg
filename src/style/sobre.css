@@ -1,0 +1,79 @@
+/* RESET básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* seção principal */
+.main_sobre {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ffffff 50%, #0f3d3e 50%);
+    display: flex;
+    align-items: center;
+}
+
+/* container */
+.container1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 60px 20px;
+}
+
+/* TEXTO (lado esquerdo) */
+.titulo {
+    width: 50%;
+}
+
+.titulo h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.texto_sobre {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    max-width: 500px;
+}
+
+/* IMAGEM (lado direito) */
+.img_sobre {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_sobre img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.25);
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .main_sobre {
+        background: #ffffff;
+    }
+
+    .container1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo, .img_sobre {
+        width: 100%;
+    }
+
+    .texto_sobre {
+        max-width: 100%;
+    }
+}
