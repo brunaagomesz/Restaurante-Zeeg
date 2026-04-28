@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-y: hidden;
+}
+/* HEADER */
+header {
+    width: 100%;
+    padding: 28px 8%; /* mantém padrão da sua amiga */
+}
+
+/* NAVBAR */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_navbar {
+    width: 50px; /* igual ao original */
+}
+
+.nome-marca {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* MENU */
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px; /* mantém espaçamento original */
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav_item a:hover {
+    color: #4A3A4F;
+}
+
+/* ITEM ATIVO */
+.nav_item.active a {
+    border-bottom: 3px solid #4A3A4F;
+    padding-bottom: 4px;
+}
+
+/* BOTÃO */
+.btn-default {
+    border: none;
+    background-color: #C8B6C9;
+    border-radius: 12px;
+    padding: 10px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-default:hover {
+    background-color: #b3a0b4;
+}
+
+/* MOBILE */
+#mobile_btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1170px) {
+
+    #nav_list,
+    #navbar .btn-default {
+        display: none;
+    }
+
+    #mobile_btn {
+        display: block;
+    }
+}
