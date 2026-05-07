@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style/style.css">
-    <link rel="stylesheet" href="src/style/header.css">
-    <link rel="stylesheet" href="src/style/home.css">
+    <link rel="stylesheet" href="src/style/contato.css">
+    
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,13 +26,13 @@
                     <a href="./index.html">Inicio</a>
                 </li>
                 <li class="nav_item">
-                    <a href="sobre.html">Sobre</a>
+                    <a href="#on">Sobre</a>
                 </li>
                 <li class="nav_item">
                     <a href="#menu">Canecas</a>
                 </li>
                 <li class="nav_item">
-                    <a href="./contato.html">Contato</a>
+                    <a href="contato.html">Contato</a>
                 </li>
             </ul>
             
@@ -52,7 +51,7 @@
         <div id="mobile_menu">
             <ul id="mobile_nav_list">
                 <li class="nav_item">
-                    <a href="#home">Inicio</a>
+                    <a href="./index.html">Inicio</a>
                 </li>
                 <li class="nav_item">
                     <a href="#on">Sobre</a>
@@ -64,7 +63,7 @@
                     <a href="#testimonials">Avaliações</a>
                 </li>
                 <li class="nav_item">
-                    <a href="contato.html">Contato</a>
+                    <a href="./contato.html">Contato</a>
                 </li>
             </ul>
 
@@ -79,53 +78,63 @@
 
 
     <main id="content">
-        <section id="home">
-            <div class="shape"></div>
-            <div id="cta">
-                <h1 class="title">
-                    Transforme Suas Ideias em Canecas 
-                    <span>Unicas</span>
-                </h1>
-
-                <p class="description">
-                    Canecas Exclusivas para expressar quem voçê é. Crie, Personalize e
-                    torne cada momento <span>Unico.</span>
-                </p>
-
-                <div id="cta_buttons">
-                    <a href="#" class="btn-default">
-                        Modelos
-                    </a>
-
-                    <a href="tel:+55555555555" id="phone_button">
-                        <button class="btn-default">
-                            <i class="fa-solid fa-phone"></i>
-                        </button>
-                        (51)99999-9999
-                    </a>
-                </div>
-
-                <!-- Icone Social media -->
-                <div class="social-media-buttons">
-                    <a href="">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-
-                    <a href="">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
+        <section id="contact">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <p><i class="fa-solid fa-phone"></i> Telefone: (51)99999-9999</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: contato@antoniett.com</p>
             </div>
+            <form id="contact_form">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" required>
 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            <div id="banner">
-                <img class="Caneca" src="/src/style/img/boonjour.png" alt="Imagem-caneca">
-            </div>
-        
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
-        
+
     </main>
 
+    <footer class="footer">
+
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>ANTONIETT</h3>
+                <p>Feito no Brasil,Feito para durar!</p>
+            </div>
+           
+           <div class="footer-section">
+                <h3>NAVEGAÇÃO</h3>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="#menu">Canecas</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+           </div>
+
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p><i class="fa-solid fa-phone"></i> (51)99999-9999</p>
+                <p><i class="fa-solid fa-envelope"></i> contato@antoniett.com</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>REDES SOCIAIS</h3>
+                <a href="https://www.instagram.com/aloantoniett/" target="_blank" rel="noopener noreferrer">
+                    <p><i class="fa-brands fa-instagram"></i> @antoniett</p>
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright © 2026. Todos os direitos reservados.</p>
+            </div>
+       
+        </footer>
 
         <script src="src/javascript/script.js"></script>
 </body>
