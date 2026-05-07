@@ -1,79 +1,83 @@
-/* RESET básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#about {
+    background-color: #F5F5F5;
+    padding: 80px 20px;
 }
 
-/* seção principal */
-.main_sobre {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(to right, #ffffff 50%, #0f3d3e 50%);
-    display: flex;
-    align-items: center;
-}
-
-/* container */
-.container1 {
-    width: 100%;
+/* container principal */
+.about-container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
+    background: #fffffff6;
+    border-radius: 20px;
+    padding: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 60px;
-    padding: 60px 20px;
 }
 
-/* TEXTO (lado esquerdo) */
-.titulo {
-    width: 50%;
+/* TEXTO */
+.about-text {
+    flex: 1;
 }
 
-.titulo h1 {
-    font-size: 42px;
+.about-tag {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #4A3A4F;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.about-text h2 {
+    font-size: 48px;
+    font-family: serif;
+    color: #2E1A2F;
     margin-bottom: 20px;
-    color: #111;
 }
 
-.texto_sobre {
+.about-description {
     font-size: 18px;
-    line-height: 1.7;
-    color: #333;
-    max-width: 500px;
+    color: #3A3A3A;
+    margin-bottom: 20px;
 }
 
-/* IMAGEM (lado direito) */
-.img_sobre {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+.about-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #3A3A3A;
 }
 
-.img_sobre img {
+.about-text span {
+    color: #2E1A2F;
+    font-weight: bold;
+}
+
+.about-quote {
+    margin-top: 30px;
+    font-style: italic;
+    color: #4A3A4F;
+}
+
+/* IMAGEM */
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
     width: 100%;
-    max-width: 450px;
     border-radius: 20px;
-    box-shadow: 0px 15px 40px rgba(0,0,0,0.25);
+    object-fit: cover;
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.15);
 }
 
 /* RESPONSIVO */
-@media (max-width: 768px) {
-    .main_sobre {
-        background: #ffffff;
-    }
-
-    .container1 {
+@media (max-width: 900px) {
+    .about-container {
         flex-direction: column;
-        text-align: center;
+        padding: 40px;
     }
 
-    .titulo, .img_sobre {
-        width: 100%;
-    }
-
-    .texto_sobre {
-        max-width: 100%;
+    .about-text h2 {
+        font-size: 32px;
     }
 }
